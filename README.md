@@ -1,7 +1,7 @@
 # Structure From Motion
 
 ## Description
-The following repository contains the data, code and implementation of Structure From Motion (SFM) for Orthogonal angle estimation from multiview imaging. This method can decrease ample time and resources where imaging of object from orthogonal view requires lot of experimental setup. The following method is based on SIFT for correspondence detection and binocular SFM for 3D reconstruction. I have also used in build AliceVision Meshroom implementation for dense 3D reconstruction.
+The following repository contains the data, code and implementation of Structure From Motion (SFM) for Orthogonal angle estimation from multiview imaging. This method can decrease ample time and resources where imaging of object from orthogonal view requires lot of experimental setup. The following method is based on SIFT for correspondence detection and binocular SFM for 3D reconstruction. I have also used in build AliceVision Meshroom implementation for dense 3D reconstruction. For using the codes please install the versions of libraries mentioned in the requirements.txt file.
 
 ## Steps For Angle Estimation
 * Image object from different angle and take atleast 10 images containing angular face of interest.
