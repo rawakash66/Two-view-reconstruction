@@ -1,13 +1,14 @@
 # Structure From Motion
 
 ## Description
-The following repository contains the data, code and implementation of Structure From Motion (SFM) for Orthogonal angle estimation from multiview imaging. This method can decrease ample time and resources where imaging of object from orthogonal view requires lot of experimental setup. The following method is based on SIFT for correspondence detection and binocular SFM for 3D reconstruction. I have also used in build AliceVision Meshroom implementation for dense 3D reconstruction. For using the codes please install the versions of libraries mentioned in the requirements.txt file. Following is the flowdiagram for the methodology used.
+The following repository contains the data, code and implementation of Structure From Motion (SFM) for Orthogonal angle estimation from multiview imaging. This method can decrease ample time and resources where imaging of object from orthogonal view requires lot of experimental setup. The following method is based on SIFT for correspondence detection and binocular SFM for 3D reconstruction. I have also used in-built AliceVision Meshroom implementation for dense 3D reconstruction. For using the codes please install the versions of libraries mentioned in the requirements.txt file. Following is the flowdiagram for the methodology used.
 
 <p align="center">
   <img src="https://github.com/rawakash66/ME683A-SFM/blob/main/two-view%20methodology.png" width="800">
 </p>
 
 ## Steps For Angle Estimation
+* Camera calibration using image processing toolbox in MATLAB. The images are provided [here](https://github.com/rawakash66/ME683A-SFM/tree/main/images%20chessboard)
 * Image object from different angle and take atleast 10 images containing angular face of interest.
 * Use SIFT to detect correspondence between consecutive pair of images and calculate the keypoints.
 * Provide the Intrinsic Camera parameters, necessary to normalize the image point coordinates.
