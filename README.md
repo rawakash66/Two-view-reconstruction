@@ -18,7 +18,7 @@ The following repository contains the data, code and implementation of Structure
 * Store the projection matrix used for each image pairs into a list.
 * Take input points on each of the image that corresponds to the edges, between which our interest of angle lies
 * Reproject the 3D points using the projection matrix and input points chosen for each image pair.
-* Use vector algebra to calculate the angle between the 3D edges projected.
+* Use vector algebra to calculate the angle between the 3D projected edges.
 
 ## Google Colab Files
 | File Name | Colab Link |
