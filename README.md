@@ -24,7 +24,6 @@ The following repository contains the data, code and implementation of Structure
 | File Name | Colab Link |
 | ----------- | ---------- |
 | Angle Estimation : Binocular SFM | <a target="_blank" href="https://colab.research.google.com/drive/16UIwZAQsV3AZpD5FM1Aqw-F1zWk1bthP?usp=sharing">Run in Google Colab</a> |
-| Angle Estimation : Meshroom Implementation | <a target="_blank" href="https://colab.research.google.com/drive/1D9e7tz8sxbD7RtYRXN93knRAkcZ5S-6Q?usp=sharing">Run in Google Colab</a> |
 | SIFT Implementation | <a target="_blank" href="https://colab.research.google.com/drive/1i2J4DidtcGEf8EYj2QmLqHmoMH8pvGvx?usp=sharing">Run in Google Colab</a> |
 
 ## References
