@@ -1,8 +1,11 @@
-<!---
-# Structure From Motion
+# Angle estimation in opaque objects with Lambertian surfaces
 
 ## Description
-The following repository contains the data, code and implementation of Structure From Motion (SFM) for Orthogonal angle estimation from multiview imaging. This method can decrease ample time and resources where imaging of object from orthogonal view requires lot of experimental setup. The following method is based on SIFT for correspondence detection and binocular SFM for 3D reconstruction. I have also used in-built AliceVision Meshroom implementation for dense 3D reconstruction. For using the codes please install the versions of libraries mentioned in the requirements.txt file. Following is the flowdiagram for the methodology used.
+The following repository contains the data, code and implementation of binocular reconstruction for Orthogonal angle estimation from multiview imaging. 
+This method can decrease ample time and resources where imaging of object from orthogonal view requires lot of experimental setup. 
+The following method is based on SIFT for correspondence detection and binocular SFM for 3D reconstruction. 
+For using the codes please install the versions of libraries mentioned in the **requirements.txt** file. 
+Following is the flowdiagram for the methodology used.
 
 <p align="center">
   <img src="https://github.com/rawakash66/ME683A-SFM/blob/main/two-view%20methodology.png" width="800">
@@ -29,8 +32,6 @@ The following repository contains the data, code and implementation of Structure
 -->
 
 ## References
-* [AliceVision](https://alicevision.org/)
-* [Meshroom](https://meshroom.com/)
 * [Meshlab](https://www.meshlab.net/)
 * [Structure From Motion](https://towardsdatascience.com/structure-from-motion-311c0cb50e8d)
 * [3D reconstruction](https://github.com/alyssaq/3Dreconstruction)
