@@ -29,7 +29,6 @@ Following is the flowdiagram for the methodology used.
 | ----------- | ---------- |
 | Angle Estimation : Binocular SFM | <a target="_blank" href="https://colab.research.google.com/drive/16UIwZAQsV3AZpD5FM1Aqw-F1zWk1bthP?usp=sharing">Run in Google Colab</a> |
 | SIFT Implementation | <a target="_blank" href="https://colab.research.google.com/drive/1i2J4DidtcGEf8EYj2QmLqHmoMH8pvGvx?usp=sharing">Run in Google Colab</a> |
--->
 
 ## References
 * [Meshlab](https://www.meshlab.net/)
